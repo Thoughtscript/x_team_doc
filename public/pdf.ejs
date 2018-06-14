@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>X-Team Example</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Lato');
+        html, body {
+            font-family: 'Lato', monospace;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        .pdfWrapper {
+            position: relative;
+            left: 25%;
+            top: 15%;
+            width: 50%;
+        }
+        .pdfWrapper > h1 {
+            color: #f8893a;
+        }
+        .pdfWrapper > iframe {
+            width: 100%;
+            min-height: 500px;
+            margin-bottom: 25px;
+        }
+        .pdfWrapper > a {
+            margin-top: 15px;
+            color: #fbb584;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<div class="pdfWrapper">
+    <h1>PDF Generated From Swagger JSON</h1>
+    <iframe src="example.pdf"></iframe>
+    <a href="example.pdf">Example Generated PDF</a>
+</div>
+</body>
+</html>

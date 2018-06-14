@@ -1,0 +1,100 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "Here's a simple REST API I made for you!",
+    "version": "1.0.0",
+    "title": "X-Team REST API",
+    "termsOfService": "http://swagger.io/terms/",
+    "contact": {
+      "email": "agerard@x-team.com"
+    },
+    "license": {
+      "name": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  },
+  "host": "ec2-34-209-215-91.us-west-2.compute.amazonaws.com:4444",
+  "basePath": "/api",
+  "tags": [
+    {
+      "name": "rest",
+      "description": "Example rest endpoint",
+      "externalDocs": {
+        "description": "Find out more",
+        "url": "http://swagger.io"
+      }
+    }
+  ],
+  "schemes": [
+    "https"
+  ],
+  "paths": {
+    "/rest": {
+      "get": {
+        "tags": [
+          "rest"
+        ],
+        "summary": "Fetch example JSON list",
+        "description": "Get all the artifacts!",
+        "operationId": "getArtifacts",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Ability": {
+      "type": "string"
+    },
+    "Artifact": {
+      "type": "object",
+      "properties": {
+        "Device": {
+          "type": "string"
+        },
+        "Consumable": {
+          "type": "boolean"
+        },
+        "Weight": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "User": {
+          "type": "string"
+        },
+        "Abilities": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Ability"
+          }
+        }
+      }
+    },
+    "Response": {
+      "type": "object",
+      "properties": {
+        "Status": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "Data": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Artifact"
+          }
+        }
+      }
+    }
+  },
+  "externalDocs": {
+    "description": "Find out more about Swagger",
+    "url": "http://swagger.io"
+  }
+}

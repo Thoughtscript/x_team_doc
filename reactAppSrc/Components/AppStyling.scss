@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Jura|Lato|Roboto|Source+Code+Pro');
+
+$a: #000000;
+$b: #000000;
+$c: #fff;
+
+html, body {
+  font-family: 'Source Code Pro', monospace;
+  position: absolute;
+  text-transform: uppercase;
+  top: -6px;
+  left: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  height: 75px;
+  background: $a;
+  font-weight: 500;
+  & > ul > li {
+    list-style: none;
+    display: inline;
+    line-height: 75px;
+    padding: 0 2% 0 2%;
+    & > a {
+      font-family: 'Lato', monospace;
+      text-transform: uppercase;
+      color: $c;
+    }
+    & > a:hover {
+      color: $b;
+    }
+  }
+}
+
+.appContainer, .innerRouterWrapper, #react_app_root, .sharedContentWrapper, .pageContainer {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}

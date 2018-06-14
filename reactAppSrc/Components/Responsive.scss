@@ -1,0 +1,41 @@
+@media only screen and (max-width: 1450px) {
+  .apiEndpoints, .aboutLinks, .swaggerResources {
+    width: 10%;
+    top: 20%;
+  }
+
+  .apiEndpoints > a, .aboutLinks > a, .swaggerResources > a {
+    display: block;
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 1075px) {
+  .startBtn {
+    left: 30%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  nav > ul > li.responsiveHide {
+    display: none
+  }
+  nav > ul > li.home {
+    display: inline-block;
+  }
+
+  .startBtn {
+    left: 25%;
+  }
+}
+
+@media only screen and (max-width: 775px) {
+
+}
+
+@media only screen and (max-width: 575px) {
+  .startBtn {
+    left: 25%;
+  }
+}
+

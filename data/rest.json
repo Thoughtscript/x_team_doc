@@ -1,0 +1,49 @@
+[
+  {
+    "Device": "Augmented Reality Helm",
+    "Consumable": false,
+    "Weight": 1,
+    "User": "Individual",
+    "Abilities": [
+        "+5 Perception",
+        "+5 Vision",
+        "+5 Communication",
+        "Non-invasive ads",
+        "x2 Productivity",
+        "Quantum folding"
+    ]
+  },
+  {
+    "Device": "Pouch of Sentient Money + 5",
+    "Consumable": false,
+    "Weight": 1,
+    "User": "Individual",
+    "Abilities": [
+      "Those dollar bill faces are starting to talk to you",
+      "Ad recommendations"
+    ]
+  },
+  {
+    "Device": "Hypercomputation Jet Pack",
+    "Consumable": false,
+    "Weight": 5,
+    "User": "Individual",
+    "Abilities": [
+      "Flight",
+      "Everything is decideable",
+      "Expend coffee units to solve math problems"
+    ]
+  },
+  {
+    "Device": "Supersentience Chip",
+    "Consumable": false,
+    "Weight": 1,
+    "User": "Individual",
+    "Abilities": [
+        "Neurological degeneration immunity",
+        "x10 Intellect",
+        "Always on networking",
+        "Portable chat box"
+    ]
+  }
+]

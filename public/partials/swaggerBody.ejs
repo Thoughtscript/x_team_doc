@@ -1,0 +1,24 @@
+<body>
+<% include ./swaggerSvg.ejs %>
+<div id="swagger-ui"></div>
+<script src="assets/swagger-ui-bundle.js"></script>
+<script src="assets/swagger-ui-standalone-preset.js"></script>
+<script>
+  window.onload = function () {
+    const ui = SwaggerUIBundle({
+      url: '/api/swagger/json',
+      dom_id: '#swagger-ui',
+      deepLinking: true,
+      presets: [
+        SwaggerUIBundle.presets.apis,
+        SwaggerUIStandalonePreset
+      ],
+      plugins: [
+        SwaggerUIBundle.plugins.DownloadUrl
+      ],
+      layout: 'StandaloneLayout'
+    })
+    window.ui = ui
+  }
+</script>
+</body>
