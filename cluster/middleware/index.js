@@ -7,7 +7,7 @@
 'use strict'
 
 const l = require('../logger'),
-  c = require('../Constants')
+  c = require('../server.config')
 
 const ipFilter = ['::1']
 
@@ -19,7 +19,7 @@ module.exports = {
   },
 
   serve404: (which, req, res) => {
-    //TO DO - in Production - all static assets should exist on a secure hosted site rather than locally
+    //Mirror functionality in the the React client!
     l.log(`404 Error - Page Not Found on ${which}!`)
     res.render('404')
   }

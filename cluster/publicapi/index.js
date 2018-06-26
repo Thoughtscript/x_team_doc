@@ -8,7 +8,7 @@
 
 const express = require('express'),
   publicapi = express.Router(),
-  c = require('../Constants'),
+  c = require('../server.config'),
   l = require('../logger'),
   m = require('../middleware'),
   s = require('../services');

@@ -7,7 +7,7 @@
  */
 
 import React from 'react'
-import CustomLink from './CustomLink'
+import CustomLink from '../CustomLink/index'
 
 export class DocumentationComponent extends React.Component {
   constructor (props) {

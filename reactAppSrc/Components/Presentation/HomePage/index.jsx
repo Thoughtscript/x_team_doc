@@ -9,7 +9,7 @@
 import React from 'react'
 import './HomePageStyling.scss'
 import { API_JSON, API_MARKDOWN, API_PDF, API_REST, API_YAML, SWAGGER_PATH, PDF_PATH, API_YAML_JSON } from '../../../Constants'
-import { DocumentationComponent } from '../../Shared/DocumentationComponent'
+import { DocumentationComponent } from '../../Shared/DocumentationComponent/index'
 
 export default () =>
   <div className="pageContainer">

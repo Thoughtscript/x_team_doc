@@ -7,7 +7,7 @@
 'use strict'
 
 const cluster = require('cluster'),
-  l = require('../logger')
+  l = require('./logger/index')
 
 module.exports = {
   createCluster: (clusterConfig, securityConfig) => {
@@ -21,16 +21,15 @@ module.exports = {
         cluster.fork()
       }
 
-      cluster.on('fork', worker => {
-        l.log(`Worker %d created: ${worker.id}`)
-      }).on('exit', worker => {
+      cluster.on('fork', worker => l.log(`Worker %d created: ${worker.id}`))
+        .on('exit', worker => {
         l.err(`Worker %d died: ${worker.id}`)
         cluster.fork()
       })
 
     } else {
       workerCount++
-      require('../ssl').createHttpsServer(clusterConfig, securityConfig)
+      require('./ssl/index').createHttpsServer(clusterConfig, securityConfig)
     }
   }
 }

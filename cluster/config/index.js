@@ -17,14 +17,14 @@ let clusterCache = {
     wssPort: 7777,
     workers: 8,
     expressPort: 3333,
-    logPath: '/log',
-    staticPath: '/public'
+    logPath: './log',
+    staticPath: './public'
 };
 
 let securityCache = {
     ssl: {
-        key: readFile('key.pem', 'utf8'),
-        cert: readFile('cert.pem', 'utf8')
+        key: readFile('./ssl/key.pem', 'utf8'),
+        cert: readFile('./ssl/cert.pem', 'utf8')
     }
 };
 
@@ -56,8 +56,8 @@ module.exports = {
     configureSecurity: (sslConfig, oauthConfig) => {
         securityCache = {
             ssl: {
-                key: readFile(sslConfig.keyPath || securityCache.ssl.key, 'utf8'),
-                cert: readFile(sslConfig.certPath || securityCache.ssl.cert, 'utf8')
+                key: readFile(sslConfig.keyPath, 'utf8') || securityCache.ssl.key,
+                cert: readFile(sslConfig.certPath, 'utf8') || securityCache.ssl.cert
             }
         }
     }

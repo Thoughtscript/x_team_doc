@@ -9,7 +9,9 @@
 const linux = false
 
 module.exports = {
+
   fullLogging: false,
+
   server: {
     port: 4444,
     workers: 8,
@@ -17,12 +19,15 @@ module.exports = {
     logPath: (linux) ? './log' : './log',
     staticPath: (linux) ? './public' : './public'
   },
+
   ssl: {
-    keyPath: 'privateKey.key',
-    certPath: 'certificate.crt'
+    keyPath: (linux) ? './ssl/privateKey.key' : './ssl/privateKey.key',
+    certPath: (linux) ? './ssl/certificate.crt' : './ssl/certificate.crt'
   },
+
   data: {
-    pdfPath: (linux) ? '/home/ubuntu/workspace/x_team_doc/public/pdf/' :'X-Team/x_team_doc/public/pdf/',
-    basePath: (linux) ? '/home/ubuntu/workspace/x_team_doc/data/' :'X-Team/x_team_doc/data/'
+    pdfPath: (linux) ? '/home/ubuntu/workspace/x_team_doc/public/pdf/' :'C:/workspace/clients/X-Team/x_team_doc/public/pdf/',
+    basePath: (linux) ? '/home/ubuntu/workspace/x_team_doc/data/' :'C:/workspace/clients/X-Team/x_team_doc/data/'
   }
+
 }

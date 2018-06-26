@@ -8,18 +8,18 @@
 
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { HOME_PATH, HTML_PATH } from '../../Constants'
+import { HOME_PATH, HTML_PATH, MD_PATH } from '../../Constants'
 
 const active = {
   "color": "#000000",
   "backgroundColor": "#FFF",
-  "padding": "28px"
+  "padding": "27px 17px 28px 17px"
 }
 
 const inactive = {
   "color": "#FFF",
   "backgroundColor": "#000000",
-  "padding": "0px"
+  "padding": "27px 17px 28px 17px"
 }
 
 export class Menu extends React.Component {
@@ -41,6 +41,9 @@ export class Menu extends React.Component {
           </li>
           <li>
             <Link style={w === HTML_PATH ? active : inactive} to={HTML_PATH}>HTML Page</Link>
+          </li>
+          <li>
+            <Link style={w === MD_PATH ? active : inactive} to={MD_PATH}>MD Page</Link>
           </li>
         </ul>
       </nav>

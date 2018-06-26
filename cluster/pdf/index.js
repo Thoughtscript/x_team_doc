@@ -7,7 +7,7 @@
 'use strict'
 
 const fs = require('fs'), l = require('../logger'),
-  config = require('../../server.config').data,
+  config = require('../../cluster.config').data,
   pdfjs = require('pdfjs'),
   nl = require('os').EOL
 

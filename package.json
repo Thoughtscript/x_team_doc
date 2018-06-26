@@ -6,7 +6,8 @@
     "build": "webpack --config webpack.config.js --progress --profile --colors",
     "start": "node cluster.js",
     "stop-win": "Taskkill /IM node.exe /F",
-    "stop-linux": "killall node"
+    "stop-linux": "killall node",
+    "all": "npm run build && npm run start"
   },
   "main": "cluster.js",
   "engines": {

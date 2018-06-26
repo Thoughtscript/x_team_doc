@@ -8,9 +8,11 @@
 
 const express = require('express'),
     app = express(),
+
     path = require('path'),
     bodyParser = require('body-parser'),
-    c = require('../Constants'),
+
+    c = require('../server.config'),
     l = require('../logger');
 
 module.exports = {
@@ -18,6 +20,7 @@ module.exports = {
 
         app.set('views', path.join(__dirname, '../..', clusterConfig.staticPath))
             .set('view engine', 'ejs')
+
             .use(express.static(path.join(__dirname, '../..', clusterConfig.staticPath)))
             .use(require('morgan')('dev'))
             .use(bodyParser.json())

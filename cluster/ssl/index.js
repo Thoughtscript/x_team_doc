@@ -11,8 +11,8 @@ const l = require('../logger'),
 
 module.exports = {
   createHttpsServer: (clusterConfig, securityConfig) => {
-
-    const s = h.createServer(securityConfig.ssl, require('../express/').createServer(clusterConfig, securityConfig));
+    const s = h.createServer(securityConfig.ssl, require('../express/')
+      .createServer(clusterConfig, securityConfig))
 
     s.on('clientError', (err, sck) => {
       const e = `HTTP/1.1 400 Bad Request! ${err}`

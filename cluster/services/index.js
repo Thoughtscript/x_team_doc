@@ -7,7 +7,7 @@
 'use strict'
 
 const l = require('../logger'),
-  config = require('../../server.config').data,
+  config = require('../../cluster.config').data,
   j = require('../json'),
   m = require('../markdown'),
   p = require('../pdf'),

@@ -1,0 +1,47 @@
+.documentationWrapper, .viewWrapper, .introText {
+  position: relative;
+  left: 10%;
+  text-transform: none;
+  width: 75%;
+  margin-bottom: 15px;
+  & > h2 {
+    font-weight: 600;
+    font-size: 34px;
+  }
+}
+
+.introText {
+  font-family: 'lato', monospace;
+}
+
+.documentation {
+  font-family: 'Jura', monospace;
+  padding: 1px;
+  margin-bottom: 2px;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+
+.improvementWrapper {
+  font-family: 'Source Code Pro', monospace;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  & > a {
+    font-weight: 500;
+    font-size: 16px;
+  }
+  & > label {
+    font-size: 12px;
+  }
+  & > input[type="checkbox"] {
+    margin-left: 15px;
+    top: 2px;
+    position: relative;
+    box-shadow: 1px 1px 0px 0px lightgray;
+    opacity: .3;
+  }
+  & > input[type="text"] {
+    margin-top: 12px;
+    width: 350px;
+  }
+}

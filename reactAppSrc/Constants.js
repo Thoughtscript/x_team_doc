@@ -11,7 +11,7 @@
 const basePath = //'https://ec2-34-209-215-91.us-west-2.compute.amazonaws.com:4444'
   'https://localhost:4444'
 
-const c = require('../server/Constants')
+const c = require('../cluster/server.config')
 
 export const
   API_REST = basePath + c.API_URL + c.API_REST_URL,
@@ -22,7 +22,12 @@ export const
   API_PDF = basePath + c.API_URL + c.API_PDF_URL
 
 export const
+  MD_DOC = "https://github.com/Thoughtscript/x_team_doc/blob/master/README.md",
+  MD_ETH = "https://github.com/Thoughtscript/x_team_ethereum/blob/master/README.md"
+
+export const
   HOME_PATH = c.VIEWS_URL,
   HTML_PATH = c.VIEWS_URL + '/html',
+  MD_PATH = c.VIEWS_URL + '/md',
   SWAGGER_PATH = c.SWAGGER_URL,
   PDF_PATH = c.PDF_URL
