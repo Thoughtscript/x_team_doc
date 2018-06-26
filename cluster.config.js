@@ -6,11 +6,11 @@
 
 'use strict'
 
-const linux = false
+const linux = true
 
 module.exports = {
 
-  fullLogging: false,
+  fullLogging: true,
 
   server: {
     port: 4444,
@@ -26,8 +26,8 @@ module.exports = {
   },
 
   data: {
-    pdfPath: (linux) ? '/home/ubuntu/workspace/x_team_doc/public/pdf/' :'C:/workspace/clients/X-Team/x_team_doc/public/pdf/',
-    basePath: (linux) ? '/home/ubuntu/workspace/x_team_doc/data/' :'C:/workspace/clients/X-Team/x_team_doc/data/'
+    pdfPath: (linux) ? '/home/ubuntu/x_team_doc/public/pdf/' :'C:/workspace/clients/X-Team/x_team_doc/public/pdf/',
+    basePath: (linux) ? '/home/ubuntu/x_team_doc/data/' :'C:/workspace/clients/X-Team/x_team_doc/data/'
   }
 
 }

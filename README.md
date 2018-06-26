@@ -1,22 +1,30 @@
 # x_team_doc
 
-Here's a simple example demonstrating how to inject JSON and/or YAML to build Swagger API documentation endpoints.
+This repository combines several modern documentation tools into one example.
 
-Simple conversion between the two file types is provided.
+Included herein:
+```
+    (1) Swagger
+    (2) esDoc
+    (3) Marked.js
+    (4) GitBooks
+```
 
-There are also a few examples about how to use the EXACT same JSON to build a Markdown file and a PDF file. Thus, one file can be used to generate three needs.
-
-**The critical work from a *file generation* standpoint is then to determine *what* content is automatically generated, *how it looks*, *where* it gets generated from, etc.**
-
-# Specific Details
-
-This contains several technologies that are spread across several different endpoints and views.
-
-#### Views
+## Views
 
 https://localhost:4444/views
 ```
-    Main React client
+    Main React client with links to all API endpoints
+```
+
+https://localhost:4444/views/markdown
+```
+    View marked.js from external sources
+```
+
+https://localhost:4444/views/markdown
+```
+    View marked.js from external sources
 ```
 
 https://localhost:4444/swagger
@@ -29,7 +37,7 @@ https://localhost:4444/pdf
     View a PDF
 ```
 
-#### API Endpoints
+## API Endpoints
 
 https://localhost:4444/api/swagger/json
 ```
