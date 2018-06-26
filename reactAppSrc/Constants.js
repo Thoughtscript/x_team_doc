@@ -22,8 +22,8 @@ export const
   API_PDF = basePath + c.API_URL + c.API_PDF_URL
 
 export const
-  MD_DOC = "https://github.com/Thoughtscript/x_team_doc/blob/master/README.md",
-  MD_ETH = "https://github.com/Thoughtscript/x_team_ethereum/blob/master/README.md"
+  MD_DOC = "https://raw.githubusercontent.com/Thoughtscript/x_team_doc/master/README.md",
+  MD_ETH = "https://raw.githubusercontent.com/Thoughtscript/x_team_ethereum/master/README.md"
 
 export const
   HOME_PATH = c.VIEWS_URL,

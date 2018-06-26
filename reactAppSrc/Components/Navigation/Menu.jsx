@@ -13,13 +13,13 @@ import { HOME_PATH, HTML_PATH, MD_PATH } from '../../Constants'
 const active = {
   "color": "#000000",
   "backgroundColor": "#FFF",
-  "padding": "27px 17px 28px 17px"
+  "padding": "28px 18px 28px 18px"
 }
 
 const inactive = {
   "color": "#FFF",
   "backgroundColor": "#000000",
-  "padding": "27px 17px 28px 17px"
+  "padding": "28px 18px 28px 18px"
 }
 
 export class Menu extends React.Component {

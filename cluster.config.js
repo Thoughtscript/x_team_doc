@@ -6,7 +6,7 @@
 
 'use strict'
 
-const linux = true
+const linux = false
 
 module.exports = {
 

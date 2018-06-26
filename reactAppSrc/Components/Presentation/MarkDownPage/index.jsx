@@ -8,7 +8,7 @@
 
 import React from 'react'
 import { MD_DOC, MD_ETH } from '../../../Constants'
-import { asyncGet } from '../../../Helpers/GetHelper'
+import { get } from '../../../Helpers/FetchHelper'
 import './MarkDownPage.scss'
 
 let marked = require('marked')
@@ -32,39 +32,35 @@ export class MarkDownPage extends React.Component {
       xhtml: false
     })
 
-    asyncGet(MD_DOC, null).then(firstData => {
-      try {
-        const dOne = JSON.parse(firstData)['data']
-        console.log(dOne)
-        document.getElementById('documentation').innerHTML = marked(dOne)
-        asyncGet(MD_ETH, null).then(secondData => {
-          try {
-            const dTwo = JSON.parse(data)['data']
-            console.log(dTwo)
-            document.getElementById('ethereum').innerHTML = marked(JSON.parse(dTwo)['data'])
-          } catch (ex) {
-            console.error("Exception: "  + ex);
-          }
-        })
-      } catch (ex) {
-        console.error("Exception: "  + ex);
-      }
-    })
+    try {
+      get(MD_ETH).then(firstSuccess => {
+        let el = document.getElementsByClassName('ethereum')[0], n = document.createElement('div')
+        el.appendChild(n)
+        n.innerHTML = marked(firstSuccess)
+      })
+
+      get(MD_DOC).then(secondSuccess => {
+        let el = document.getElementsByClassName('documentation')[0], n = document.createElement('div')
+        el.appendChild(n)
+        n.innerHTML = marked(secondSuccess)
+      })
+    } catch (ex) {
+      console.error('Exception: ' + ex)
+    }
   }
 
   render () {
+    const {ethereum, documentation} = this.state
     return (
-
       <div className="pageContainer">
         <div className="introText">
           <h2>Introduction!</h2>
           <p>This page demonstrates dynamic MarkDown injection!</p>
           <p>You can easily assemble resources and other cross-platform resources!</p>
         </div>
-        <div id="documentation"></div>
-        <div id="ethereum"></div>
+        <div className="markdown ethereum"></div>
+        <div className="markdown documentation"></div>
       </div>
-
     )
   }
 }
