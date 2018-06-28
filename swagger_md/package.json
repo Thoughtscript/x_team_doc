@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "X-Team Doc",
   "scripts": {
-    "build": "webpack --config webpack.config.js --progress --profile --colors",
-    "start": "node cluster.js",
     "stop-win": "Taskkill /IM node.exe /F",
     "stop-linux": "killall node",
+    "esdoc": "bash node_modules/.bin/esdoc",
+    "build": "webpack --config webpack.config.js --progress --profile --colors && npm run esdoc",
+    "start": "node cluster.js",
     "all": "npm run build && npm run start"
   },
   "main": "cluster.js",
@@ -20,7 +21,7 @@
   "keywords": [],
   "author": "Adam I. Gerard",
   "devDependencies": {
-    "marked": "=0.3.15",
+    "jsdoc": "=3.5.5",
     "react_pack": "git+https://github.com/Thoughtscript/react_pack.git",
     "webpack_pack": "git+https://github.com/Thoughtscript/webpack_pack.git"
   },
@@ -28,6 +29,7 @@
     "express_pack": "git+https://github.com/Thoughtscript/express_pack.git",
     "json2md": "=1.6.1",
     "js-yaml": "=3.5.5",
+    "marked": "=0.3.15",
     "pdfjs": "=2.0.0-alpha.3"
   }
 }
