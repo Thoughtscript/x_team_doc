@@ -10,7 +10,7 @@ Make sure to stay below **Ruby 2.5.0** to avoid some dependency conflicts!
 
 Installation will likely entail:
  
- 1. Downloading and running the Ruby installer.
+ 1. Downloading and running the Ruby installer (try **2.3.1**).
  2. Downloading and unzipping the RubyGem install files.
  3. Running `$ ruby setup.rb` from your unzipped RubyGem directory.
  4. Running `$ gem install bundler jekyll`.
