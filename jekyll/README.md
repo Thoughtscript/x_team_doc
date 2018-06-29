@@ -2,11 +2,22 @@
 
 ### Installation
 
-- [Ruby](https://www.ruby-lang.org/en/)
-- [RubyGems](https://rubygems.org/pages/download#formats)
-- [Jekyll](https://jekyllrb.com/)
+1. <a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+2. <a href="https://rubygems.org/pages/download#formats">RubyGems</a>
+3. <a href="https://jekyllrb.com/">Jekyll</a>
 
 Make sure to stay below **Ruby 2.5.0** to avoid some dependency conflicts!
+
+Installation will likely entail:
+ 
+ 1. Downloading and running the Ruby installer.
+ 2. Downloading and unzipping the RubyGem install files.
+ 3. Running `$ ruby setup.rb` from your unzipped RubyGem directory.
+ 4. Running `$ gem install bundler jekyll`.
+
+For a more thorough setup please check out the supplied Linux Bash script!
+ 
+ Cheers!
 
 ### CLI
 

@@ -11,6 +11,10 @@ import Router from './Navigation/Router'
 import './AppStyling.scss'
 import './Responsive.scss'
 
+/**
+ * App entry.
+ * @file
+ */
 export default () => {
   return (
     <div className="appContainer">

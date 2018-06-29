@@ -5,9 +5,9 @@ This repository combines several modern documentation tools into one example.
 Included herein:
 ```
     (1) Swagger
-    (2) esDoc
+    (2) JSDoc
     (3) Marked.js
-    (4) GitBooks
+    (4) Jekyll
 ```
 
 ## Views
@@ -89,6 +89,10 @@ https://localhost:4444/pdf
     $ npm run install
     $ npm run build
     $ npm run start
+```
+
+```bash
+  $ npm install -g jsdoc
 ```
 
 # Licensing and Use

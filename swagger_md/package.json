@@ -5,8 +5,7 @@
   "scripts": {
     "stop-win": "Taskkill /IM node.exe /F",
     "stop-linux": "killall node",
-    "esdoc": "bash node_modules/.bin/esdoc",
-    "build": "webpack --config webpack.config.js --progress --profile --colors && npm run esdoc",
+    "build": "webpack --config webpack.config.js --progress --profile --colors",
     "start": "node cluster.js",
     "all": "npm run build && npm run start"
   },

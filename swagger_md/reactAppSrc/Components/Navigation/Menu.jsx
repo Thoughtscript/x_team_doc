@@ -22,6 +22,10 @@ const inactive = {
   "padding": "28px 18px 28px 18px"
 }
 
+/**
+ * Example Menu.
+ * @file
+ */
 export class Menu extends React.Component {
   constructor (props) {
     super(props)

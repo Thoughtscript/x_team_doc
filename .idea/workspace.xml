@@ -2,116 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b489cd11-f831-4a1d-8215-ba344c75329c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/jekyll/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jekyll/Gemfile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jekyll/Gemfile.lock" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jekyll/_config.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jekyll/jekyllAppSrc/_includes/bottom.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jekyll/jekyllAppSrc/_includes/footer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jekyll/jekyllAppSrc/_includes/head.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jekyll/jekyllAppSrc/_includes/header.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jekyll/jekyllAppSrc/_includes/icon-github.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jekyll/jekyllAppSrc/_includes/icon-github.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jekyll/jekyllAppSrc/_includes/icon-twitter.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jekyll/jekyllAppSrc/_includes/icon-twitter.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jekyll/jekyllAppSrc/_layouts/default.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jekyll/jekyllAppSrc/_layouts/page.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jekyll/jekyllAppSrc/_layouts/post.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jekyll/jekyllAppSrc/_posts/2017-12-27-welcome-to-jekyll.markdown" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jekyll/jekyllAppSrc/_sass/_base.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jekyll/jekyllAppSrc/_sass/_layout.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jekyll/jekyllAppSrc/_sass/_syntax-highlighting.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jekyll/jekyllAppSrc/about.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jekyll/jekyllAppSrc/assets/javascripts/.gitkeep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jekyll/jekyllAppSrc/css/main.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jekyll/jekyllAppSrc/feed.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jekyll/jekyllAppSrc/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/swagger_md/reactAppSrc/Components/Presentation/PageNotFound/PageNotFound.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/swagger_md/webpack.dev.config.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/swagger_md/webpack.prod.config.js" />
-      <change beforePath="$PROJECT_DIR$/.babelrc" afterPath="$PROJECT_DIR$/swagger_md/.babelrc" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/swagger_md/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.npmrc" afterPath="$PROJECT_DIR$/swagger_md/.npmrc" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/swagger_md/.travis.yml" />
-      <change beforePath="$PROJECT_DIR$/cluster.config.js" afterPath="$PROJECT_DIR$/swagger_md/cluster.config.js" />
-      <change beforePath="$PROJECT_DIR$/cluster.js" afterPath="$PROJECT_DIR$/swagger_md/cluster.js" />
-      <change beforePath="$PROJECT_DIR$/cluster/cluster.entry.js" afterPath="$PROJECT_DIR$/swagger_md/cluster/cluster.entry.js" />
-      <change beforePath="$PROJECT_DIR$/cluster/config/index.js" afterPath="$PROJECT_DIR$/swagger_md/cluster/config/index.js" />
-      <change beforePath="$PROJECT_DIR$/cluster/express/index.js" afterPath="$PROJECT_DIR$/swagger_md/cluster/express/index.js" />
-      <change beforePath="$PROJECT_DIR$/cluster/json/index.js" afterPath="$PROJECT_DIR$/swagger_md/cluster/json/index.js" />
-      <change beforePath="$PROJECT_DIR$/cluster/logger/index.js" afterPath="$PROJECT_DIR$/swagger_md/cluster/logger/index.js" />
-      <change beforePath="$PROJECT_DIR$/cluster/markdown/index.js" afterPath="$PROJECT_DIR$/swagger_md/cluster/markdown/index.js" />
-      <change beforePath="$PROJECT_DIR$/cluster/middleware/index.js" afterPath="$PROJECT_DIR$/swagger_md/cluster/middleware/index.js" />
-      <change beforePath="$PROJECT_DIR$/cluster/pdf/index.js" afterPath="$PROJECT_DIR$/swagger_md/cluster/pdf/index.js" />
-      <change beforePath="$PROJECT_DIR$/cluster/publicapi/index.js" afterPath="$PROJECT_DIR$/swagger_md/cluster/publicapi/index.js" />
-      <change beforePath="$PROJECT_DIR$/cluster/server.config.js" afterPath="$PROJECT_DIR$/swagger_md/cluster/server.config.js" />
-      <change beforePath="$PROJECT_DIR$/cluster/services/index.js" afterPath="$PROJECT_DIR$/swagger_md/cluster/services/index.js" />
-      <change beforePath="$PROJECT_DIR$/cluster/ssl/index.js" afterPath="$PROJECT_DIR$/swagger_md/cluster/ssl/index.js" />
-      <change beforePath="$PROJECT_DIR$/cluster/viewcontroller/index.js" afterPath="$PROJECT_DIR$/swagger_md/cluster/viewcontroller/index.js" />
-      <change beforePath="$PROJECT_DIR$/cluster/yaml/index.js" afterPath="$PROJECT_DIR$/swagger_md/cluster/yaml/index.js" />
-      <change beforePath="$PROJECT_DIR$/data/font/Courier-Bold.json" afterPath="$PROJECT_DIR$/swagger_md/data/font/Courier-Bold.json" />
-      <change beforePath="$PROJECT_DIR$/data/font/Courier-BoldOblique.json" afterPath="$PROJECT_DIR$/swagger_md/data/font/Courier-BoldOblique.json" />
-      <change beforePath="$PROJECT_DIR$/data/font/Courier-Oblique.json" afterPath="$PROJECT_DIR$/swagger_md/data/font/Courier-Oblique.json" />
-      <change beforePath="$PROJECT_DIR$/data/font/Courier.json" afterPath="$PROJECT_DIR$/swagger_md/data/font/Courier.json" />
-      <change beforePath="$PROJECT_DIR$/data/font/Helvetica-Bold.json" afterPath="$PROJECT_DIR$/swagger_md/data/font/Helvetica-Bold.json" />
-      <change beforePath="$PROJECT_DIR$/data/font/Helvetica-BoldOblique.json" afterPath="$PROJECT_DIR$/swagger_md/data/font/Helvetica-BoldOblique.json" />
-      <change beforePath="$PROJECT_DIR$/data/font/Helvetica-Oblique.json" afterPath="$PROJECT_DIR$/swagger_md/data/font/Helvetica-Oblique.json" />
-      <change beforePath="$PROJECT_DIR$/data/font/Helvetica.json" afterPath="$PROJECT_DIR$/swagger_md/data/font/Helvetica.json" />
-      <change beforePath="$PROJECT_DIR$/data/font/Symbol.json" afterPath="$PROJECT_DIR$/swagger_md/data/font/Symbol.json" />
-      <change beforePath="$PROJECT_DIR$/data/font/Times-Bold.json" afterPath="$PROJECT_DIR$/swagger_md/data/font/Times-Bold.json" />
-      <change beforePath="$PROJECT_DIR$/data/font/Times-BoldItalic.json" afterPath="$PROJECT_DIR$/swagger_md/data/font/Times-BoldItalic.json" />
-      <change beforePath="$PROJECT_DIR$/data/font/Times-Italic.json" afterPath="$PROJECT_DIR$/swagger_md/data/font/Times-Italic.json" />
-      <change beforePath="$PROJECT_DIR$/data/font/Times-Roman.json" afterPath="$PROJECT_DIR$/swagger_md/data/font/Times-Roman.json" />
-      <change beforePath="$PROJECT_DIR$/data/font/ZapfDingbats.json" afterPath="$PROJECT_DIR$/swagger_md/data/font/ZapfDingbats.json" />
-      <change beforePath="$PROJECT_DIR$/data/rest.json" afterPath="$PROJECT_DIR$/swagger_md/data/rest.json" />
-      <change beforePath="$PROJECT_DIR$/data/xteam.json" afterPath="$PROJECT_DIR$/swagger_md/data/xteam.json" />
-      <change beforePath="$PROJECT_DIR$/data/xteam.yaml" afterPath="$PROJECT_DIR$/swagger_md/data/xteam.yaml" />
-      <change beforePath="$PROJECT_DIR$/log/.gitignore" afterPath="$PROJECT_DIR$/swagger_md/log/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/swagger_md/package.json" />
-      <change beforePath="$PROJECT_DIR$/public/.gitignore" afterPath="$PROJECT_DIR$/swagger_md/public/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/public/404.ejs" afterPath="$PROJECT_DIR$/swagger_md/public/404.ejs" />
-      <change beforePath="$PROJECT_DIR$/public/assets/favicon-16x16.png" afterPath="$PROJECT_DIR$/swagger_md/public/assets/favicon-16x16.png" />
-      <change beforePath="$PROJECT_DIR$/public/assets/favicon-32x32.png" afterPath="$PROJECT_DIR$/swagger_md/public/assets/favicon-32x32.png" />
-      <change beforePath="$PROJECT_DIR$/public/assets/favicon.ico" afterPath="$PROJECT_DIR$/swagger_md/public/assets/favicon.ico" />
-      <change beforePath="$PROJECT_DIR$/public/assets/swagger-overrides.css" afterPath="$PROJECT_DIR$/swagger_md/public/assets/swagger-overrides.css" />
-      <change beforePath="$PROJECT_DIR$/public/assets/swagger-ui-bundle.js" afterPath="$PROJECT_DIR$/swagger_md/public/assets/swagger-ui-bundle.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/swagger-ui-standalone-preset.js" afterPath="$PROJECT_DIR$/swagger_md/public/assets/swagger-ui-standalone-preset.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/swagger-ui.css" afterPath="$PROJECT_DIR$/swagger_md/public/assets/swagger-ui.css" />
-      <change beforePath="$PROJECT_DIR$/public/assets/swagger-ui.js" afterPath="$PROJECT_DIR$/swagger_md/public/assets/swagger-ui.js" />
-      <change beforePath="$PROJECT_DIR$/public/index.ejs" afterPath="$PROJECT_DIR$/swagger_md/public/index.ejs" />
-      <change beforePath="$PROJECT_DIR$/public/partials/swaggerBody.ejs" afterPath="$PROJECT_DIR$/swagger_md/public/partials/swaggerBody.ejs" />
-      <change beforePath="$PROJECT_DIR$/public/partials/swaggerSvg.ejs" afterPath="$PROJECT_DIR$/swagger_md/public/partials/swaggerSvg.ejs" />
-      <change beforePath="$PROJECT_DIR$/public/pdf.ejs" afterPath="$PROJECT_DIR$/swagger_md/public/pdf.ejs" />
-      <change beforePath="$PROJECT_DIR$/public/pdf/example.pdf" afterPath="$PROJECT_DIR$/swagger_md/public/pdf/example.pdf" />
-      <change beforePath="$PROJECT_DIR$/public/swagger.ejs" afterPath="$PROJECT_DIR$/swagger_md/public/swagger.ejs" />
-      <change beforePath="$PROJECT_DIR$/reactAppSrc/Components/App.jsx" afterPath="$PROJECT_DIR$/swagger_md/reactAppSrc/Components/App.jsx" />
-      <change beforePath="$PROJECT_DIR$/reactAppSrc/Components/AppStyling.scss" afterPath="$PROJECT_DIR$/swagger_md/reactAppSrc/Components/AppStyling.scss" />
-      <change beforePath="$PROJECT_DIR$/reactAppSrc/Components/Navigation/Menu.jsx" afterPath="$PROJECT_DIR$/swagger_md/reactAppSrc/Components/Navigation/Menu.jsx" />
-      <change beforePath="$PROJECT_DIR$/reactAppSrc/Components/Navigation/Router.jsx" afterPath="$PROJECT_DIR$/swagger_md/reactAppSrc/Components/Navigation/Router.jsx" />
-      <change beforePath="$PROJECT_DIR$/reactAppSrc/Components/Presentation/DocumentationPage/DocumentationPage.scss" afterPath="$PROJECT_DIR$/swagger_md/reactAppSrc/Components/Presentation/DocumentationPage/DocumentationPage.scss" />
-      <change beforePath="$PROJECT_DIR$/reactAppSrc/Components/Presentation/DocumentationPage/index.jsx" afterPath="$PROJECT_DIR$/swagger_md/reactAppSrc/Components/Presentation/DocumentationPage/index.jsx" />
-      <change beforePath="$PROJECT_DIR$/reactAppSrc/Components/Presentation/HomePage/HomePageStyling.scss" afterPath="$PROJECT_DIR$/swagger_md/reactAppSrc/Components/Presentation/HomePage/HomePageStyling.scss" />
-      <change beforePath="$PROJECT_DIR$/reactAppSrc/Components/Presentation/HomePage/index.jsx" afterPath="$PROJECT_DIR$/swagger_md/reactAppSrc/Components/Presentation/HomePage/index.jsx" />
-      <change beforePath="$PROJECT_DIR$/reactAppSrc/Components/Presentation/MarkDownPage/MarkDownPage.scss" afterPath="$PROJECT_DIR$/swagger_md/reactAppSrc/Components/Presentation/MarkDownPage/MarkDownPage.scss" />
-      <change beforePath="$PROJECT_DIR$/reactAppSrc/Components/Presentation/MarkDownPage/index.jsx" afterPath="$PROJECT_DIR$/swagger_md/reactAppSrc/Components/Presentation/MarkDownPage/index.jsx" />
-      <change beforePath="$PROJECT_DIR$/reactAppSrc/Components/Presentation/PageNotFound/PageNotFound.scss" afterPath="$PROJECT_DIR$/jekyll/jekyllAppSrc/assets/images/.gitkeep" />
-      <change beforePath="$PROJECT_DIR$/reactAppSrc/Components/Presentation/PageNotFound/index.jsx" afterPath="$PROJECT_DIR$/swagger_md/reactAppSrc/Components/Presentation/PageNotFound/index.jsx" />
-      <change beforePath="$PROJECT_DIR$/reactAppSrc/Components/Redux/CachedReducer.jsx" afterPath="$PROJECT_DIR$/swagger_md/reactAppSrc/Components/Redux/CachedReducer.jsx" />
-      <change beforePath="$PROJECT_DIR$/reactAppSrc/Components/Redux/DefaultActions.jsx" afterPath="$PROJECT_DIR$/swagger_md/reactAppSrc/Components/Redux/DefaultActions.jsx" />
-      <change beforePath="$PROJECT_DIR$/reactAppSrc/Components/Redux/PersistHelper.jsx" afterPath="$PROJECT_DIR$/swagger_md/reactAppSrc/Components/Redux/PersistHelper.jsx" />
-      <change beforePath="$PROJECT_DIR$/reactAppSrc/Components/Responsive.scss" afterPath="$PROJECT_DIR$/swagger_md/reactAppSrc/Components/Responsive.scss" />
-      <change beforePath="$PROJECT_DIR$/reactAppSrc/Components/Shared/CustomLink/index.jsx" afterPath="$PROJECT_DIR$/swagger_md/reactAppSrc/Components/Shared/CustomLink/index.jsx" />
-      <change beforePath="$PROJECT_DIR$/reactAppSrc/Components/Shared/DocumentationComponent/index.jsx" afterPath="$PROJECT_DIR$/swagger_md/reactAppSrc/Components/Shared/DocumentationComponent/index.jsx" />
-      <change beforePath="$PROJECT_DIR$/reactAppSrc/Constants.js" afterPath="$PROJECT_DIR$/swagger_md/reactAppSrc/Constants.js" />
-      <change beforePath="$PROJECT_DIR$/reactAppSrc/Helpers/FetchHelper.js" afterPath="$PROJECT_DIR$/swagger_md/reactAppSrc/Helpers/FetchHelper.js" />
-      <change beforePath="$PROJECT_DIR$/reactAppSrc/Helpers/GetHelper.js" afterPath="$PROJECT_DIR$/swagger_md/reactAppSrc/Helpers/GetHelper.js" />
-      <change beforePath="$PROJECT_DIR$/reactAppSrc/Helpers/Shared.js" afterPath="$PROJECT_DIR$/swagger_md/reactAppSrc/Helpers/Shared.js" />
-      <change beforePath="$PROJECT_DIR$/reactAppSrc/entry.jsx" afterPath="$PROJECT_DIR$/swagger_md/reactAppSrc/entry.jsx" />
-      <change beforePath="$PROJECT_DIR$/ssl/cert.pem" afterPath="$PROJECT_DIR$/swagger_md/ssl/cert.pem" />
-      <change beforePath="$PROJECT_DIR$/ssl/certificate.crt" afterPath="$PROJECT_DIR$/swagger_md/ssl/certificate.crt" />
-      <change beforePath="$PROJECT_DIR$/ssl/key.pem" afterPath="$PROJECT_DIR$/swagger_md/ssl/key.pem" />
-      <change beforePath="$PROJECT_DIR$/ssl/privateKey.key" afterPath="$PROJECT_DIR$/swagger_md/ssl/privateKey.key" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/swagger_md/webpack.config.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/jekyll/Gemfile.lock" afterPath="$PROJECT_DIR$/jekyll/Gemfile.lock" />
+      <change beforePath="$PROJECT_DIR$/jekyll/README.md" afterPath="$PROJECT_DIR$/jekyll/README.md" />
+      <change beforePath="$PROJECT_DIR$/swagger_md/package.json" afterPath="$PROJECT_DIR$/swagger_md/package.json" />
+      <change beforePath="$PROJECT_DIR$/swagger_md/reactAppSrc/Components/App.jsx" afterPath="$PROJECT_DIR$/swagger_md/reactAppSrc/Components/App.jsx" />
+      <change beforePath="$PROJECT_DIR$/swagger_md/reactAppSrc/Components/Navigation/Menu.jsx" afterPath="$PROJECT_DIR$/swagger_md/reactAppSrc/Components/Navigation/Menu.jsx" />
+      <change beforePath="$PROJECT_DIR$/swagger_md/reactAppSrc/Components/Shared/DocumentationComponent/index.jsx" afterPath="$PROJECT_DIR$/swagger_md/reactAppSrc/Components/Shared/DocumentationComponent/index.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -125,72 +23,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jekyll/_config.yml">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/swagger_md/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="221">
+              <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jekyll/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jekyll/jekyllAppSrc/_layouts/default.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jekyll/jekyllAppSrc/_layouts/page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jekyll/jekyllAppSrc/_layouts/post.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jekyll/jekyllAppSrc/css/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-319">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jekyll/jekyllAppSrc/about.md">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="153">
-                <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="68" />
+              <first_editor relative-caret-position="1600">
+                <caret line="95" column="3" lean-forward="false" selection-start-line="95" selection-start-column="3" selection-end-line="95" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -198,25 +46,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile.lock" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jekyll/Gemfile.lock">
+      <file leaf-file-name="App.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swagger_md/reactAppSrc/Components/App.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="14" column="5" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="16" selection-end-column="3" />
+              <folding>
+                <element signature="e#124#149#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="entry.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swagger_md/reactAppSrc/entry.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="e#116#141#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Menu.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swagger_md/reactAppSrc/Components/Navigation/Menu.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="53">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="27" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-12-27-welcome-to-jekyll.markdown" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jekyll/jekyllAppSrc/_posts/2017-12-27-welcome-to-jekyll.markdown">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="187">
-                <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swagger_md/reactAppSrc/Components/Shared/DocumentationComponent/index.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -252,7 +121,6 @@
         <option value="$PROJECT_DIR$/reactAppSrc/Components/Presentation/PageNotFound/index.jsx" />
         <option value="$PROJECT_DIR$/reactAppSrc/Components/Presentation/PageNotFound/PageNotFound.scss" />
         <option value="$PROJECT_DIR$/reactAppSrc/Components/Navigation/Router.jsx" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/reactAppSrc/Helpers/Shared.js" />
         <option value="$PROJECT_DIR$/reactAppSrc/Helpers/GetHelper.js" />
@@ -268,11 +136,16 @@
         <option value="$PROJECT_DIR$/swagger_md/cluster/cluster.entry.js" />
         <option value="$PROJECT_DIR$/swagger_md/cluster.config.js" />
         <option value="$PROJECT_DIR$/swagger_md/.esdoc.json" />
-        <option value="$PROJECT_DIR$/swagger_md/package.json" />
         <option value="$PROJECT_DIR$/swagger_md/public/swagger.ejs" />
         <option value="$PROJECT_DIR$/jekyll/_config.yml" />
         <option value="$PROJECT_DIR$/jekyll/jekyllAppSrc/_layouts/default.html" />
         <option value="$PROJECT_DIR$/jekyll/README.md" />
+        <option value="$PROJECT_DIR$/bash/jekyll.sh" />
+        <option value="$PROJECT_DIR$/swagger_md/reactAppSrc/Components/App.jsx" />
+        <option value="$PROJECT_DIR$/swagger_md/reactAppSrc/Components/Navigation/Menu.jsx" />
+        <option value="$PROJECT_DIR$/swagger_md/reactAppSrc/Components/Shared/DocumentationComponent/index.jsx" />
+        <option value="$PROJECT_DIR$/swagger_md/package.json" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -285,10 +158,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="239" />
-    <option name="y" value="88" />
-    <option name="width" value="1560" />
-    <option name="height" value="894" />
+    <option name="x" value="537" />
+    <option name="y" value="72" />
+    <option name="width" value="976" />
+    <option name="height" value="797" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -305,6 +178,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -315,26 +190,18 @@
             <path>
               <item name="x_team_doc" type="b2602c69:ProjectViewProjectNode" />
               <item name="x_team_doc" type="462c0819:PsiDirectoryNode" />
-              <item name="jekyll" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="x_team_doc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="x_team_doc" type="462c0819:PsiDirectoryNode" />
-              <item name="jekyll" type="462c0819:PsiDirectoryNode" />
-              <item name="jekyllAppSrc" type="462c0819:PsiDirectoryNode" />
+              <item name="bash" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../x_team_tensorflow_js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
@@ -388,21 +255,21 @@
       <workItem from="1529994821717" duration="10349000" />
       <workItem from="1530141669862" duration="2546000" />
       <workItem from="1530153905847" duration="10976000" />
+      <workItem from="1530209948281" duration="591000" />
+      <workItem from="1530212437860" duration="6983000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44322000" />
+    <option name="totallyTimeSpent" value="51896000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="239" y="88" width="1560" height="894" extended-state="0" />
-    <editor active="true" />
+    <frame x="537" y="72" width="976" height="797" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1911958" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30383795" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -415,6 +282,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -426,69 +294,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/swagger_md/cluster/express/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swagger_md/reactAppSrc/Components/Shared/DocumentationComponent/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/zero-order-quantum-logic.md" />
-    <entry file="file://$PROJECT_DIR$/swagger_md/reactAppSrc/Components/AppStyling.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swagger_md/reactAppSrc/Components/Presentation/PageNotFound/PageNotFound.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swagger_md/reactAppSrc/Components/Presentation/PageNotFound/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="true" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="16">
-            <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/swagger_md/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swagger_md/reactAppSrc/Components/Navigation/Menu.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -510,9 +324,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#117#142#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -548,9 +359,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#144#169#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -558,7 +366,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="35" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="21" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -566,7 +373,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -574,7 +380,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -589,15 +394,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swagger_md/reactAppSrc/entry.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -605,7 +401,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="531">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -613,39 +408,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swagger_md/.esdoc.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swagger_md/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jekyll/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_md/.esdoc.json" />
+    <entry file="file://$PROJECT_DIR$/jekyll/package.json" />
     <entry file="file://$PROJECT_DIR$/swagger_md/cluster.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -653,23 +424,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bash/ruby.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/bash/ruby.sh" />
     <entry file="file://$PROJECT_DIR$/swagger_md/cluster.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -677,7 +439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -685,7 +446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -693,7 +453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -701,7 +460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="39" column="8" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="39" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -709,7 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="17" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -717,7 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -725,7 +481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -741,18 +496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jekyll/jekyllAppSrc/_posts/2017-12-27-welcome-to-jekyll.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="187">
-            <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -760,14 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jekyll/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -780,18 +515,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jekyll/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="68">
-            <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/jekyll/jekyllAppSrc/_layouts/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jekyll/Gemfile.lock">
+    <entry file="file://$PROJECT_DIR$/jekyll/jekyllAppSrc/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jekyll/jekyllAppSrc/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -810,15 +550,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jekyll/jekyllAppSrc/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-319">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jekyll/jekyllAppSrc/_layouts/post.html">
+    <entry file="file://$PROJECT_DIR$/jekyll/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -826,10 +558,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jekyll/jekyllAppSrc/_layouts/page.html">
+    <entry file="file://$PROJECT_DIR$/jekyll/jekyllAppSrc/_posts/2017-12-27-welcome-to-jekyll.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="187">
+            <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jekyll/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="289">
+            <caret line="17" column="74" lean-forward="false" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jekyll/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_md/reactAppSrc/entry.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#116#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_md/reactAppSrc/Components/Navigation/Menu.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="27" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_md/reactAppSrc/Components/Shared/DocumentationComponent/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_md/node_modules/jsdoc/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_md/node_modules/jsdoc/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_md/node_modules/jsdoc/jsdoc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bash/jekyll.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_md/reactAppSrc/Components/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="16" selection-end-column="3" />
+          <folding>
+            <element signature="e#124#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1600">
+            <caret line="95" column="3" lean-forward="false" selection-start-line="95" selection-start-column="3" selection-end-line="95" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_md/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
           <folding />
         </state>
       </provider>

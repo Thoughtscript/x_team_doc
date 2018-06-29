@@ -9,6 +9,10 @@
 import React from 'react'
 import CustomLink from '../CustomLink/index'
 
+/**
+ * Documentation component.
+ * @file
+ */
 export class DocumentationComponent extends React.Component {
   constructor (props) {
     super(props)
