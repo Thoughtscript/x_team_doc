@@ -16,7 +16,6 @@ rvm get stable
 
 echo "Install Ruby"
 rvm install ruby-2.3.1
-# rvm install 2.3.1
 
 echo "RVM"
 echo "Make sure to run as login"
@@ -33,4 +32,10 @@ echo "Bundler"
 gem install bundler
 
 echo "Jekyll"
-gem install jekyll
+gem install jekyll -v 3.6.2
+
+echo "Configure Linux Install"
+echo "Add the Following to Your .bashrc"
+echo export GEM_HOME=$HOME/gems
+echo export PATH=$HOME/gems/bin:$PATH
+sudo nano .bashrc

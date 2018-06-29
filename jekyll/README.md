@@ -13,11 +13,20 @@ Installation will likely entail:
  1. Downloading and running the Ruby installer (try **2.3.1**).
  2. Downloading and unzipping the RubyGem install files.
  3. Running `$ ruby setup.rb` from your unzipped RubyGem directory.
- 4. Running `$ gem install bundler jekyll`.
+ 4. Running `$ gem install bundler jekyll -v 3.6.2`.
+ 
+On Linux, you may also need to add to `.bashrc`:
+
+```bash
+# Ruby exports
+
+export GEM_HOME=$HOME/gems
+export PATH=$HOME/gems/bin:$PATH
+```
 
 For a more thorough setup please check out the supplied Linux Bash script!
- 
- Cheers!
+
+Cheers!
 
 ### CLI
 
